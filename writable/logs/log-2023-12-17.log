@@ -1,0 +1,265 @@
+INFO - 2023-12-17 04:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 04:06:37 --> Call to a member function listErrors() on null
+in APPPATH\Controllers\Market.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2023-12-17 04:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 04:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 04:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 04:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 04:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 04:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 04:14:12 --> Undefined array key "photo"
+in APPPATH\Controllers\Market.php on line 74.
+ 1 APPPATH\Controllers\Market.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "photo"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 74)
+ 2 APPPATH\Controllers\Market.php(42): App\Controllers\Market->handleImageUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 04:17:46 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 74.
+ 1 APPPATH\Controllers\Market.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 74)
+ 2 APPPATH\Controllers\Market.php(42): App\Controllers\Market->handleImageUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2023-12-17 04:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 04:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 04:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 04:50:17 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 43.
+ 1 APPPATH\Controllers\Market.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 04:51:58 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 43.
+ 1 APPPATH\Controllers\Market.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 04:55:26 --> Undefined variable $names
+in APPPATH\Controllers\Market.php on line 64.
+ 1 APPPATH\Controllers\Market.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $names', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 04:55:46 --> Undefined variable $filename
+in APPPATH\Controllers\Market.php on line 74.
+ 1 APPPATH\Controllers\Market.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 04:56:12 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Market.php on line 74.
+ 1 APPPATH\Controllers\Market.php(74): implode(',', '')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:01:15 --> Undefined variable $filename
+in APPPATH\Controllers\Market.php on line 72.
+ 1 APPPATH\Controllers\Market.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:02:21 --> Undefined variable $names
+in APPPATH\Controllers\Market.php on line 63.
+ 1 APPPATH\Controllers\Market.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $names', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:04:45 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 41.
+ 1 APPPATH\Controllers\Market.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:05:33 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 41.
+ 1 APPPATH\Controllers\Market.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:06:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Market.php on line 42.
+ 1 APPPATH\Controllers\Market.php(42): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:06:40 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Market.php on line 42.
+ 1 APPPATH\Controllers\Market.php(42): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:07:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Market.php on line 41.
+ 1 APPPATH\Controllers\Market.php(41): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:08:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Market.php on line 42.
+ 1 APPPATH\Controllers\Market.php(42): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:08:17 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Market.php on line 42.
+ 1 APPPATH\Controllers\Market.php(42): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:09:12 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 43.
+ 1 APPPATH\Controllers\Market.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:09:52 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 43.
+ 1 APPPATH\Controllers\Market.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:09:55 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 43.
+ 1 APPPATH\Controllers\Market.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:10:05 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 43.
+ 1 APPPATH\Controllers\Market.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:10:35 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 44.
+ 1 APPPATH\Controllers\Market.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:10:43 --> Undefined array key "picture_market"
+in APPPATH\Controllers\Market.php on line 44.
+ 1 APPPATH\Controllers\Market.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture_market"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:15:05 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Market.php on line 54.
+ 1 APPPATH\Controllers\Market.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2023-12-17 05:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 05:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 05:23:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Market.php on line 54.
+ 1 APPPATH\Controllers\Market.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-17 05:23:58 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Market.php on line 55.
+ 1 APPPATH\Controllers\Market.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->store()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+ERROR - 2023-12-17 08:25:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'sukmar', 3306, '', 0)
+#1 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Controllers\Market.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(942): App\Controllers\Market->index()
+#8 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+#9 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\Web\CI4\sukmar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Controllers\Market.php(20): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(942): App\Controllers\Market->index()
+#7 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+#8 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\Web\CI4\sukmar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-17 08:25:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `market`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Market.php(20): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')

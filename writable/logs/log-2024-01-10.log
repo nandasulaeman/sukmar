@@ -1,0 +1,46 @@
+CRITICAL - 2024-01-10 02:31:07 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Api_Product.php on line 108.
+ 1 APPPATH\Controllers\Api_Product.php(97): App\Controllers\Api_Product->saveAccessLog('28')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->show('28')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2024-01-10 02:31:16 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Api_Product.php on line 108.
+ 1 APPPATH\Controllers\Api_Product.php(97): App\Controllers\Api_Product->saveAccessLog('28')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->show('28')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+ERROR - 2024-01-10 02:33:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sukmar`.`product_access_logs`, CONSTRAINT `product_access_logs_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `product` (`id`)) in C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Controllers\Api_Product.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Controllers\Api_Product.php(97): App\Controllers\Api_Product->saveAccessLog('2')
+#9 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(942): App\Controllers\Api_Product->show('2')
+#10 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+#11 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\Web\CI4\sukmar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2024-01-10 02:33:08 --> Cannot add or update a child row: a foreign key constraint fails (`sukmar`.`product_access_logs`, CONSTRAINT `product_access_logs_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `product` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_access_logs` (`access_count`, `id_product`, `created_at`, `updated_at`) VALUES (:access_count:, :id_product:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api_Product.php(113): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Api_Product.php(97): App\Controllers\Api_Product->saveAccessLog('2')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->show('2')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')

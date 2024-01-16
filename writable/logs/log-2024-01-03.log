@@ -1,0 +1,134 @@
+INFO - 2024-01-03 10:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-03 10:26:45 --> Attempt to read property "id" on null
+in APPPATH\Views\page\product\edit_product.php on line 13.
+ 1 APPPATH\Views\page\product\edit_product.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\product\\edit_product.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\product\\edit_product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('page/product/edit_product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(56): view('page/product/edit_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductController->edit('29')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2024-01-03 10:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-03 10:26:59 --> Attempt to read property "id" on null
+in APPPATH\Views\page\product\edit_product.php on line 13.
+ 1 APPPATH\Views\page\product\edit_product.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\product\\edit_product.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\product\\edit_product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('page/product/edit_product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(56): view('page/product/edit_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductController->edit('29')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2024-01-03 10:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:05 --> CSRF token verified.
+INFO - 2024-01-03 10:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:12 --> CSRF token verified.
+INFO - 2024-01-03 10:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:36 --> CSRF token verified.
+INFO - 2024-01-03 10:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 10:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-03 10:29:16 --> Undefined variable $response
+in APPPATH\Controllers\Api_Product.php on line 118.
+ 1 APPPATH\Controllers\Api_Product.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Api_Product.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->showbyCategory('a')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2024-01-03 10:29:21 --> Undefined variable $response
+in APPPATH\Controllers\Api_Product.php on line 118.
+ 1 APPPATH\Controllers\Api_Product.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Api_Product.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->showbyCategory('a')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2024-01-03 10:30:38 --> Undefined variable $response
+in APPPATH\Controllers\Api_Product.php on line 118.
+ 1 APPPATH\Controllers\Api_Product.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Api_Product.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->showbyCategory('a')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+ERROR - 2024-01-03 10:48:15 --> mysqli_sql_exception: Unknown table 'sukmar.product' in C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT product....', 0)
+#1 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT product....')
+#2 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT product....')
+#3 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Models\ProductModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT product....')
+#4 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Controllers\Api_Product.php(92): App\Models\ProductModel->getProductbyCat('a')
+#5 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(942): App\Controllers\Api_Product->showbyCategory('a')
+#6 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+#7 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\Web\CI4\sukmar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2024-01-03 10:48:15 --> Unknown table 'sukmar.product'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT product.*  where category LIKE "%a%";')
+ 2 APPPATH\Controllers\Api_Product.php(92): App\Models\ProductModel->getProductbyCat('a')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->showbyCategory('a')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+ERROR - 2024-01-03 10:49:15 --> mysqli_sql_exception: Unknown table 'sukmar.product' in C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT product....', 0)
+#1 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT product....')
+#2 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT product....')
+#3 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Models\ProductModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT product....')
+#4 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Controllers\Api_Product.php(92): App\Models\ProductModel->getProductbyCat('a')
+#5 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(942): App\Controllers\Api_Product->showbyCategory('a')
+#6 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+#7 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\Web\CI4\sukmar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2024-01-03 10:49:15 --> Unknown table 'sukmar.product'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT product.*  where category LIKE "%a%";')
+ 2 APPPATH\Controllers\Api_Product.php(92): App\Models\ProductModel->getProductbyCat('a')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api_Product->showbyCategory('a')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api_Product))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2024-01-03 11:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 11:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 11:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 11:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 11:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 11:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

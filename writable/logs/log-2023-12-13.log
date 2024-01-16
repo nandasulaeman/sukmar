@@ -1,0 +1,123 @@
+CRITICAL - 2023-12-13 09:08:23 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:08:24 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:08:28 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:08:30 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:09:08 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:09:09 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:09:10 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:09:32 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(13): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:11:17 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(17): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:11:18 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(17): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:11:18 --> Call to undefined method App\Models\MarketModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\MarketModel.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\MarketController.php(17): App\Models\MarketModel->showAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:16:52 --> Undefined variable $market
+in APPPATH\Views\page\management_market.php on line 28.
+ 1 APPPATH\Views\page\management_market.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $market', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\management_market.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\management_market.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('page/management_market', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('page/management_market')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-13 09:16:53 --> Undefined variable $market
+in APPPATH\Views\page\management_market.php on line 28.
+ 1 APPPATH\Views\page\management_market.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $market', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\management_market.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Views\\page\\management_market.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('page/management_market', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('page/management_market')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')

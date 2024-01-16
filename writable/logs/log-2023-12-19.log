@@ -1,0 +1,532 @@
+CRITICAL - 2023-12-19 03:15:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Market.php on line 123.
+ 1 APPPATH\Controllers\Market.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 03:28:04 --> unlink(C:\Users\ASUS\Documents\Web\CI4\sukmar\./img/): Is a directory
+in APPPATH\Controllers\Market.php on line 151.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\./img/): Is a directory', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 151)
+ 2 APPPATH\Controllers\Market.php(151): unlink('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\./img/')
+ 3 APPPATH\Controllers\Market.php(125): App\Controllers\Market->deleteOldImages(null)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 03:29:34 --> unlink(C:\Users\ASUS\Documents\Web\CI4\sukmar\img/): Is a directory
+in APPPATH\Controllers\Market.php on line 151.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\img/): Is a directory', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 151)
+ 2 APPPATH\Controllers\Market.php(151): unlink('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\img/')
+ 3 APPPATH\Controllers\Market.php(125): App\Controllers\Market->deleteOldImages(null)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 03:52:52 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Market.php(152): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702957972_ef4d9cd1c8816dc24554.jpg', 500, 500)
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 03:58:30 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Market.php(152): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958310_fe7a180ece953e36cd3e.jpg', 500, 500)
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 03:58:42 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Market.php(152): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958322_a80fef7c7de46e5d2b64.jpg', 500, 500)
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:01:02 --> Call to a member function getWidth() on null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958461_d50ee62164d48a6afecb.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:03:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 157)
+ 2 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958581_51a24f26f36bbe19f9bc.jpg', 500, 500)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:03:38 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Controllers\Market.php(152): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958618_cc8c5f23988754290c2e.jpg', 500, 500)
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:04:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 157)
+ 2 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958646_e8c3ac0f995503555757.jpg', 500, 500)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:04:22 --> Call to a member function getWidth() on null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958661_2d984c3c4b6cc3486195.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:04:53 --> Call to a member function getWidth() on null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702958692_44c72358098eceb92cbc.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:13:14 --> imagesx(): Argument #1 ($image) must be of type GdImage, null given
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(157): imagesx(null)
+ 2 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702959193_c655f3534e11b768c5c0.jpg', 500, 500)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:21:57 --> Call to a member function save() on null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702959717_8d383bea0960474bed93.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:22:22 --> Call to a member function save() on null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702959741_50b4fe2a787bf7c3d9a0.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:45:22 --> Call to undefined method App\Controllers\Market::resizeAndCenterImage()
+in APPPATH\Controllers\Market.php on line 134.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:46:03 --> Division by zero
+in APPPATH\Controllers\Market.php on line 159.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961163_5604fa39946baa3b9e08.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:46:52 --> Call to a member function insert() on null
+in APPPATH\Controllers\Market.php on line 175.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961212_abfeb6067e35fe20e87b.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:47:10 --> Call to a member function insert() on null
+in APPPATH\Controllers\Market.php on line 175.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961230_7b74c6a452c48b3dcd3f.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:48:40 --> Call to a member function overlay() on null
+in APPPATH\Controllers\Market.php on line 175.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961320_c69bdc0b9b45e616ccf7.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:50:35 --> Call to a member function overlay() on null
+in APPPATH\Controllers\Market.php on line 178.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961435_57d2e5f22f55c081379d.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:50:49 --> Call to a member function overlay() on null
+in APPPATH\Controllers\Market.php on line 178.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961449_1fd6609db924798b308a.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:51:26 --> Call to a member function fit() on null
+in APPPATH\Controllers\Market.php on line 178.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961486_dc0d441d86ded517611f.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:51:38 --> Call to a member function fit() on null
+in APPPATH\Controllers\Market.php on line 178.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961498_a61d9a33caf86016bf15.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:07 --> Call to a member function fit() on null
+in APPPATH\Controllers\Market.php on line 178.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702961527_158ea66fff98be5cd1a1.jpg', 0, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 05:19:42 --> Call to a member function crop() on array
+in APPPATH\Controllers\Market.php on line 161.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702963182_c2d64d51b75730840cfd.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 05:19:54 --> Call to a member function crop() on array
+in APPPATH\Controllers\Market.php on line 161.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702963194_3330d76ff26fb48c85da.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 05:40:37 --> imagesx(): Argument #1 ($image) must be of type GdImage, null given
+in APPPATH\Controllers\Market.php on line 158.
+ 1 APPPATH\Controllers\Market.php(158): imagesx(null)
+ 2 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702964437_ca5f185318a3a2d0514c.jpg', 500, 500)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 05:42:50 --> Call to a member function getFile() on null
+in APPPATH\Controllers\Market.php on line 157.
+ 1 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702964569_da04b1f96b74ae2634c7.jpg', 500, 500)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 05:42:59 --> imagecopyresampled(): Argument #2 ($src_image) must be of type GdImage, CodeIgniter\Images\Handlers\GDHandler given
+in APPPATH\Controllers\Market.php on line 187.
+ 1 APPPATH\Controllers\Market.php(187): imagecopyresampled(Object(GdImage), Object(CodeIgniter\Images\Handlers\GDHandler), 81.63802174675553, 0, 0, 0, 336.72395650648895, 500, 1920, 2851)
+ 2 APPPATH\Controllers\Market.php(134): App\Controllers\Market->resizeAndCenterImage(Object(CodeIgniter\HTTP\Files\UploadedFile), '1702964579_169456f34eab157e6d9c.jpg', 500, 500)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 06:02:41 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Market.php on line 125.
+ 1 APPPATH\Controllers\Market.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 06:07:33 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Market.php on line 125.
+ 1 APPPATH\Controllers\Market.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 06:10:07 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\Market.php on line 126.
+ 1 APPPATH\Controllers\Market.php(126): explode(',', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 06:11:10 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\Market.php on line 126.
+ 1 APPPATH\Controllers\Market.php(126): explode(',', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 06:17:57 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Market.php on line 125.
+ 1 APPPATH\Controllers\Market.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 06:23:54 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\Market.php on line 124.
+ 1 APPPATH\Controllers\Market.php(124): explode(',', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 06:26:07 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\Market.php on line 124.
+ 1 APPPATH\Controllers\Market.php(124): explode(', ', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2023-12-19 06:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 09:56:10 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Market.php(104): CodeIgniter\HTTP\Files\UploadedFile->move('./img/', '1702979770_dbbc6714cbf125dd128c')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 09:58:30 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Market.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('./img/', '1702979910_53beee997c55e29fe25e')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 09:59:44 --> Undefined array key "name"
+in APPPATH\Controllers\Market.php on line 88.
+ 1 APPPATH\Controllers\Market.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 10:33:14 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Market.php(104): CodeIgniter\HTTP\Files\UploadedFile->move('./img/', '1702981994_b9016bd9b9e7b60143e0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 10:33:37 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Market.php(104): CodeIgniter\HTTP\Files\UploadedFile->move('./img/', '1702982017_e30731e6e372c3cd1174')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 10:36:23 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Market.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('./img/', '1702982183_e95e803c51d21fe87ec4')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 10:41:23 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Market.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('./img/', '1702982483_c6ccee2ffebdded78d32')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 10:43:24 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Market.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 10:45:04 --> Call to undefined function App\Controllers\getName()
+in APPPATH\Controllers\Market.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 10:45:23 --> Call to a member function getName() on array
+in APPPATH\Controllers\Market.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+ERROR - 2023-12-19 11:07:42 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sukmar`.`floor_plan`, CONSTRAINT `floor_plan_ibfk_1` FOREIGN KEY (`id_market`) REFERENCES `market` (`id`)) in C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ma...', 0)
+#1 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ma...')
+#2 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ma...')
+#3 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ma...', Array, false)
+#4 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\ASUS\Documents\Web\CI4\sukmar\app\Controllers\Market.php(130): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+#8 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+#9 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\Web\CI4\sukmar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\Web\CI4\sukmar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+CRITICAL - 2023-12-19 11:07:42 --> Cannot delete or update a parent row: a foreign key constraint fails (`sukmar`.`floor_plan`, CONSTRAINT `floor_plan_ibfk_1` FOREIGN KEY (`id_market`) REFERENCES `market` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `market`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Market.php(130): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:32:35 --> unlink(img/1702982775_9c0272b8a7ae591b2ce3.jpg): No such file or directory
+in APPPATH\Controllers\Market.php on line 127.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/1702982775_9c0272b8a7ae591b2ce3.jpg): No such file or directory', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 127)
+ 2 APPPATH\Controllers\Market.php(127): unlink('img/1702982775_9c0272b8a7ae591b2ce3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:32:52 --> unlink(./img/1702982775_9c0272b8a7ae591b2ce3.jpg): No such file or directory
+in APPPATH\Controllers\Market.php on line 127.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/1702982775_9c0272b8a7ae591b2ce3.jpg): No such file or directory', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 127)
+ 2 APPPATH\Controllers\Market.php(127): unlink('./img/1702982775_9c0272b8a7ae591b2ce3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:36:28 --> Call to undefined method mysqli::delete()
+in APPPATH\Controllers\Market.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:38:44 --> Call to undefined method mysqli::delete()
+in APPPATH\Controllers\Market.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:39:49 --> Undefined property: mysqli::$id
+in APPPATH\Controllers\Market.php on line 135.
+ 1 APPPATH\Controllers\Market.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:40:13 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Market.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:41:08 --> Undefined property: mysqli::$id
+in APPPATH\Controllers\Market.php on line 135.
+ 1 APPPATH\Controllers\Market.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:43:41 --> Call to undefined method mysqli::getResultID()
+in APPPATH\Controllers\Market.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:44:44 --> Undefined property: mysqli::$resultID
+in APPPATH\Controllers\Market.php on line 136.
+ 1 APPPATH\Controllers\Market.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$resultID', 'C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\app\\Controllers\\Market.php', 136)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+CRITICAL - 2023-12-19 12:48:00 --> Call to undefined method App\Models\FloorPlanModel::delte
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Market.php(133): CodeIgniter\Model->__call('delte', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Market->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Market))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\Web\\CI4\\sukmar\\public\\index.php')
+INFO - 2023-12-19 12:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 12:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 14:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
